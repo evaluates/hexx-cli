@@ -2,16 +2,16 @@ Hexx::CLI
 =========
 
 [![Gem Version](https://img.shields.io/gem/v/hexx-cli.svg?style=flat)][gem]
-[![Build Status](https://img.shields.io/travis/nepalez/hexx/master.svg?style=flat)][travis]
+[![Build Status](https://img.shields.io/travis/nepalez/hexx-cli/master.svg?style=flat)][travis]
 [![Dependency Status](https://img.shields.io/gemnasium/nepalez/hexx-cli.svg?style=flat)][gemnasium]
 [![Code Climate](https://img.shields.io/codeclimate/github/nepalez/hexx-cli.svg?style=flat)][codeclimate]
 [![Coverage](https://img.shields.io/coveralls/nepalez/hexx-cli.svg?style=flat)][coveralls]
 
-[codeclimate]: https://codeclimate.com/github/nepalez/hexx
-[coveralls]: https://coveralls.io/r/nepalez/hexx
-[gem]: https://rubygems.org/gems/hexx
-[gemnasium]: https://gemnasium.com/nepalez/hexx
-[travis]: https://travis-ci.org/nepalez/hexx
+[codeclimate]: https://codeclimate.com/github/nepalez/hexx-cli
+[coveralls]: https://coveralls.io/r/nepalez/hexx-cli
+[gem]: https://rubygems.org/gems/hexx-cli
+[gemnasium]: https://gemnasium.com/nepalez/hexx-cli
+[travis]: https://travis-ci.org/nepalez/hexx-cli
 
 The module contains:
 
