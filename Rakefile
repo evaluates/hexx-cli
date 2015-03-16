@@ -10,8 +10,13 @@ end
 Bundler::GemHelper.install_tasks
 
 # Loads the Hexx::Suit and its tasks
-require "hexx-suit"
-Hexx::Suit.install_tasks
+begin
+  require "hexx-suit"
+  Hexx::Suit.install_tasks
+rescue LoadError
+  require "hexx-rspec"
+  Hexx::RSpec.install_tasks
+end
 
 # Sets the Hexx::Suit :test task to default
 task default: :test

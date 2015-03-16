@@ -1,6 +1,7 @@
 ---
 language: ruby
-script: rake test:coverage:run # defined in the 'hexx-rspec' module
+bundler_args: --without metrics
+script: rake test:coverage:run
 rvm:
   - '2.0'
   - ruby-head

@@ -18,11 +18,9 @@ Gem::Specification.new do |gem|
   gem.test_files       = Dir["spec/**/*.rb"]
   gem.extra_rdoc_files = Dir["README.md", "LICENSE"]
 
-  gem.required_ruby_version = ">= 2.0"
-
+  gem.required_ruby_version = "~> 2.0"
   gem.add_runtime_dependency "extlib", "~> 0.9"
   gem.add_runtime_dependency "thor", "~> 0.19"
-
-  gem.add_development_dependency "hexx-rspec", "~> 0.2"
+  gem.add_development_dependency "hexx-rspec", "~> 0.3"
 
 end # Gem::Specification
