@@ -42,7 +42,8 @@ module Hexx
       def from_template(source)
         path    = find_in_source_paths(source)
         content = ::File.read(path)
-        ERB.new(content, nil, "-").result
+        context = instance_eval("binding")
+        ERB.new(content, nil, "-").result(context)
       end
 
       # Copies files from source folder into the destination one
